@@ -26,6 +26,31 @@ O foco não é apenas entregar uma aplicação funcionando, mas compreender o c�
 
 ---
 
+## 💻 Como clonar o repositório
+ 
+Antes de começar qualquer atividade, você precisa ter uma cópia local do repositório na sua máquina.
+ 
+```bash
+git clone https://github.com/FelipeBritoSP10/fullstack-student-activities.git
+cd fullstack-student-activities
+```
+ 
+Depois de clonado, confirme que está tudo certo:
+ 
+```bash
+git status
+```
+ 
+Esse comando só precisa ser feito **uma vez**. Nas próximas vezes, basta entrar na pasta e atualizar o repositório antes de iniciar uma nova atividade:
+ 
+```bash
+cd fullstack-student-activities
+git checkout main
+git pull origin main
+```
+ 
+---
+
 ## 📚 Módulos
 
 ### 01 — HTML
