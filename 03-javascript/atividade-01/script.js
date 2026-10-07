@@ -1,41 +1,13 @@
-// Função que mostra o nome do dia da semana
-function getDayName() {
-  // Pega o valor digitado no input e converte para número
-  let dia = Number(document.getElementById("day").value);
+/* a variavel const não pode ser mudada pois ela é imutavel e
+não pode ser reatribuida novos valores a ela.*/
 
-  // Compara o número digitado com cada caso
-  switch (dia) {
-    // Se for 1, mostra "domingo"
-    case 1:
-      alert("domingo");
-      break; // sai do switch
+const appName = "devapp"
+appName = "devcd"
 
-    case 2:
-      alert("segunda feira");
-      break;
+/* a varaivel let pode ser alterada pois ele permite aa reatribuição de valores */
 
-    case 3:
-      alert("terça-feira");
-      break;
+let userStatus = "offline"
+userStatus = "online"
 
-    case 4:
-      alert("quarta-feira");
-      break;
+console.log(appName, userStatus);
 
-    case 5:
-      alert("quinta-feira");
-      break;
-
-    case 6:
-      alert("sexta-feira");
-      break;
-
-    case 7:
-      alert("sábado");
-      break;
-
-    // Se não for nenhum número de 1 a 7
-    default:
-      alert("Dia inválido");
-  }
-}
